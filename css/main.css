@@ -1,0 +1,55 @@
+/* @import "about.css";
+@import "body.css";
+@import "contact.css";
+@import "footer.css";
+@import "header.css";
+@import "navbar.css";
+@import "projects.css";
+@import "variables.css"; */
+
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Noto Serif', serif; */
+
+body{
+    background-color:#707070;
+    background-image: url("https://www.transparenttextures.com/patterns/polonez-pattern.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
+    font-family: 'Noto Serif', serif;
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.title{
+    padding-left: 200px;
+    text-align: center;
+}
+a{
+    color: black;
+    
+}
+.nav-link fa{
+    color: black;
+    font-size: 20px;
+
+}
+
+
+#contact{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr{
+    border-width: 3px;
+    border-color: black;
+}
+.social{
+    font-size: 75px;
+    color: black;
+    text-align: center;
+}
